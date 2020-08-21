@@ -1,0 +1,22 @@
+.home-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  h1 {
+    font-size: 100px;
+  }
+  a {
+    font-size: 50px;
+    margin-top: -80px;
+    color: lighten(#333, 30);
+    &:hover {
+      color: lighten(#333, 50);
+    }
+  }
+
+  .users-link {
+    margin-top: 30px;
+  }
+}
