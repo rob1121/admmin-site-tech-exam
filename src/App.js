@@ -24,6 +24,7 @@ const Pages = () => {
         <Route exact path={`/users/create`} component={CreateUser} />
         <Route exact path={`/users/:id/edit`} component={EditUser} />
         <Route exact path={`/users/:id/delete`} component={DeleteUser} />
+        <Redirect to="/" />
       </Switch>
 
       {background && <Route path={`/users/create`} children={<CreateUser />} />}
